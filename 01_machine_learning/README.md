@@ -1,6 +1,6 @@
 # 🧠 Reconhecimento de Padrões & Machine Learning
 
-Bem-vindo(a) ao repositório de estudos práticos de **Reconhecimento de Padrões e Aprendizado de Máquina (Machine Learning)**, baseado nas aulas do **Professor Boldt**.
+Bem-vindo(a) ao repositório de estudos práticos de **Reconhecimento de Padrões e Aprendizado de Máquina (Machine Learning)**, baseado nas aulas ministradas pelo **Prof. Dr. Francisco de Assis Boldt**.
 
 Este repositório foi totalmente estruturado e enriquecido pedagogicamente para transformar códigos brutos de aula em um **guia didático interativo passo a passo**, ideal para quem está começando do zero em programação e inteligência artificial.
 
@@ -110,7 +110,10 @@ Os notebooks estão organizados em uma sequência evolutiva contínua:
 
 ---
 
-## 👨‍🏫 Créditos & Referências
-* **Professor**: Fernando Boldt
-* **Repositório Original**: [fboldt/aulasml](https://github.com/fboldt/aulasml)
-* **Enriquecimento Didático**: Estruturado com explicações detalhadas, intuição pedagógica e documentação linha a linha para aprendizado contínuo.
+## 👨‍🏫 Créditos e Autoria
+
+* **Autor Original das Aulas e Códigos**: **Prof. Dr. Francisco de Assis Boldt**
+  * Perfil no GitHub: [@fboldt](https://github.com/fboldt)
+  * Repositório Upstream Oficial: [fboldt/aulasml](https://github.com/fboldt/aulasml)
+* **Enriquecimento Didático e Curadoria**: **Paulo Fernando** ([@Paulo83-dev](https://github.com/Paulo83-dev))
+* **Metodologia de Enriquecimento**: Estruturado com explicações detalhadas, intuição pedagógica e documentação linha a linha desenvolvida com a skill de IA `enrich-ml-notebooks`.

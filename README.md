@@ -1,24 +1,25 @@
-# 🎓 Aulas do Professor Fernando Boldt: Machine Learning & Redes Neurais
+# 🎓 Aulas do Professor Dr. Francisco de Assis Boldt: Machine Learning & Redes Neurais
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12%2B-blue.svg?logo=python)](https://www.python.org/)
 [![Jupyter Notebooks](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg?logo=jupyter)](https://jupyter.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![Status](https://img.shields.io/badge/Status-100%25%20Concluído%20(27%2F27)-brightgreen.svg)]()
+[![Keras / TensorFlow](https://img.shields.io/badge/Keras-D00000.svg?logo=keras&logoColor=white)](https://keras.io/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E.svg?logo=huggingface&logoColor=black)](https://huggingface.co/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Paulo83--dev%2FAulas--Professor--Boldt-blue)](https://github.com/Paulo83-dev/Aulas-Professor-Boldt)
 
-Repositório central de estudos avançados em **Inteligência Artificial, Machine Learning Clássico e Redes Neurais Profundas (Deep Learning)**, baseado nas disciplinas do **Professor Dr. Fernando Boldt**.
+Repositório central de estudos avançados em **Inteligência Artificial, Machine Learning Clássico e Redes Neurais Profundas (Deep Learning)**, baseado nas disciplinas ministradas pelo **Professor Dr. Francisco de Assis Boldt**.
 
-Todos os 27 cadernos práticos do acervo original foram **enriquecidos pedagogicamente**, preservando 100% da lógica e do código original do professor, mas adicionando contextualização histórica, intuição geométrica, deduções matemáticas, explicações pré-bloco e **comentários didáticos linha a linha** orientados para iniciantes e pós-graduandos.
+Todos os cadernos práticos do acervo original foram **enriquecidos pedagogicamente**, preservando 100% da lógica e do código original do professor, mas adicionando contextualização histórica, intuição geométrica, deduções matemáticas, explicações pré-bloco e **comentários didáticos linha a linha** orientados para iniciantes e pós-graduandos.
 
 ---
 
 ## 🌟 Diferenciais deste Acervo Enriquecido
 
 * 📖 **Didática Passo a Passo**: Nenhum bloco de código é executado sem que sua razão conceitual seja apresentada antes.
-* ✍️ **100% Comentado Linha a Linha**: Cada variável, função, operador e transformação matricial do NumPy/PyTorch é explicada de forma clara.
-* 💡 **Alertas Conceituais**: Uso de caixas de destaque (`NOTE`, `TIP`, `IMPORTANT`) para fixar conceitos fundamentais e armadilhas comuns da modelagem.
-* 🔬 **Da Teoria ao Framework**: Implementações manuais do zero em NumPy (soluções fechadas, SGD e Backpropagation) seguidas pela transição profissional para o **PyTorch** e integração com **Scikit-Learn**.
+* ✍️ **100% Comentado Linha a Linha**: Cada variável, função, operador e transformação matricial do NumPy, PyTorch e Keras é explicada de forma clara.
+* 💡 **Alertas Conceituais**: Uso de caixas de destaque (`NOTE`, `TIP`, `IMPORTANT`, `WARNING`) para fixar conceitos fundamentais e armadilhas comuns da modelagem.
+* 🔬 **Da Teoria ao Framework**: Implementações manuais do zero em NumPy (soluções fechadas, SGD e Backpropagation) seguidas pela transição profissional para o **Scikit-Learn**, **Keras**, **PyTorch** e ecossistema **Transformers (Hugging Face)**.
 * 🤖 **Skill de IA Integrada**: Inclui a skill `.agents/skills/enrich-ml-notebooks/` para processar e manter a mesma consistência pedagógica em cadernos futuros.
 
 ---
@@ -38,10 +39,10 @@ Todos os 27 cadernos práticos do acervo original foram **enriquecidos pedagogic
 │   ├── README.md                           # Visão geral e fundamentação teórica de ML
 │   └── aula01a a aula03b                   # Regressão Linear, k-NN, Classificadores e Otimização
 │
-├── 📁 02_redes_neurais/                    # Módulo 02: Redes Neurais Artificiais & Deep Learning (21 cadernos)
+├── 📁 02_redes_neurais/                    # Módulo 02: Redes Neurais Artificiais & Deep Learning (42 cadernos)
 │   ├── README.md                           # Guia do curso e Ementa Oficial de 15 semanas (PPGComp)
-│   ├── TRACKING_PROGRESS.md                # Memória de estado de auditoria e células dos 21 cadernos
-│   └── aula01a a aula06a                   # Do Perceptron (1958) e Crise do XOR até MLP e PyTorch
+│   ├── TRACKING_PROGRESS.md                # Memória de estado de auditoria e células dos 42 cadernos
+│   └── aula01a a aula12c                   # Do Perceptron (1958) e Crise do XOR até CNNs, LSTMs e Transformers
 │
 ├── .gitignore                              # Proteção contra checkpoints e caches
 └── README.md                               # Este portal de navegação
@@ -49,7 +50,7 @@ Todos os 27 cadernos práticos do acervo original foram **enriquecidos pedagogic
 
 ---
 
-## 🧭 Trilha de Aprendizado Completa (27 Cadernos)
+## 🧭 Trilha de Aprendizado Completa (48 Cadernos)
 
 ### 📘 Módulo 1: Machine Learning & Reconhecimento de Padrões (6 Cadernos)
 > **Foco**: Fundamentos da aprendizagem supervisionada, regressão, classificação linear e não-linear, validação cruzada e ajuste de hiperparâmetros.
@@ -65,8 +66,8 @@ Todos os 27 cadernos práticos do acervo original foram **enriquecidos pedagogic
 
 ---
 
-### 🧠 Módulo 2: Redes Neurais Artificiais (ANN) & Deep Learning (21 Cadernos)
-> **Foco**: A evolução histórica e técnica das redes neurais — dos modelos biológicos lineares à diferenciação automática moderna com PyTorch.
+### 🧠 Módulo 2: Redes Neurais Artificiais (ANN) & Deep Learning (42 Cadernos)
+> **Foco**: A evolução histórica e técnica das redes neurais — dos modelos biológicos lineares à Visão Computacional, Séries Temporais, NLP e Mecanismos de Atenção Profunda.
 
 #### 📦 Lote 1: Fundamentos Lineares (Perceptron & Adaline)
 | Aula | Caderno | Tópicos Centrais |
@@ -107,7 +108,56 @@ Todos os 27 cadernos práticos do acervo original foram **enriquecidos pedagogic
 #### 📦 Lote 5: Deep Learning Moderno com PyTorch
 | Aula | Caderno | Tópicos Centrais |
 | :---: | :--- | :--- |
-| **06a** | [aula06a_pytorch.ipynb](02_redes_neurais/aula06a_pytorch.ipynb) | Transição definitiva para o PyTorch: Autograd, `nn.Sequential`, `nn.Linear`, `nn.ReLU`, `optim.Adam`, compatibilidade com Scikit-Learn e cálculo detalhado de parâmetros livres. |
+| **06a** | [aula06a_pytorch.ipynb](02_redes_neurais/aula06a_pytorch.ipynb) | Transição definitiva para o PyTorch: Autograd, `nn.Sequential`, `nn.Linear`, `nn.ReLU`, `optim.Adam`, compatibilidade com Scikit-Learn e parâmetros. |
+
+#### 📦 Lote 6: Keras & Classificação de Texto Inicial
+| Aula | Caderno | Tópicos Centrais |
+| :---: | :--- | :--- |
+| **06b** | [aula06b_keras.ipynb](02_redes_neurais/aula06b_keras.ipynb) | Padrão Scikit-Learn no Keras (`BaseEstimator`), SLP, SHLP e MLP Modular de $N$ camadas. |
+| **06c** | [aula06c_reuters.ipynb](02_redes_neurais/aula06c_reuters.ipynb) | NLP e Reuters (46 classes): Bag of Words manual x Keras, diagnóstico de Overfitting, gargalo de informação e dualidade Keras vs PyTorch. |
+
+#### 📦 Lote 7: Visão Computacional: MNIST em Keras e PyTorch
+| Aula | Caderno | Tópicos Centrais |
+| :---: | :--- | :--- |
+| **07a** | [aula07a_mnist_flat_keras.ipynb](02_redes_neurais/aula07a_mnist_flat_keras.ipynb) | MLP Flat no Keras, a armadilha do `StandardScaler` em pixels esparsos, transformadores customizados `Divide255` / `Flatten` e Scikit-Learn Pipelines com Random Forest e Keras. |
+| **07b** | [aula07b_mnist_conv_keras.ipynb](02_redes_neurais/aula07b_mnist_conv_keras.ipynb) | CNNs no Keras (`Conv2D` + `MaxPooling2D`), transformador `Shape2Keras` para canais no fim *(N, 28, 28, 1)* e acurácia superior a 99% em dígitos manuscritos. |
+| **07c** | [aula07c_mnist_flat_torch.ipynb](02_redes_neurais/aula07c_mnist_flat_torch.ipynb) | MLP Flat no PyTorch com `nn.Module`, `TensorDataset`, `DataLoader`, wrapper `TorchWrappedNN` e integração profissional em Scikit-Learn Pipeline. |
+| **07d** | [aula07d_mnist_conv_torch.ipynb](02_redes_neurais/aula07d_mnist_conv_torch.ipynb) | CNNs no PyTorch com `nn.Conv2d`, formatação de canais no início *(N, 1, 28, 28)*, transformador `Shape2Torch` e derivação matemática do campo receptivo (1152 features). |
+
+#### 📦 Lote 8: Visão Computacional com Imagens Reais & Séries Temporais
+| Aula | Caderno | Tópicos Centrais |
+| :---: | :--- | :--- |
+| **08a** | [aula08a_dogs_vs_cats.ipynb](02_redes_neurais/aula08a_dogs_vs_cats.ipynb) | Imagens Reais no Kaggle Dogs vs Cats: `image_dataset_from_directory`, Data Augmentation (`RandomFlip`, `RandomRotation`), Dropout e Transfer Learning com VGG16 (97%+ de acurácia). |
+| **09a** | [aula09a_forecasting.ipynb](02_redes_neurais/aula09a_forecasting.ipynb) | Previsão de Séries Temporais (Jena Climate - 420k amostras): Janelas deslizantes causais, baseline de senso comum (~2.57 °C), Dense, Conv1D, SimpleRNN, LSTM e BiLSTM (~2.36 °C). |
+
+#### 📦 Lote 9: Processamento de Linguagem Natural (NLP) Clássico & Vetorização
+| Aula | Caderno | Tópicos Centrais |
+| :---: | :--- | :--- |
+| **10a** | [aula10a_NLP.ipynb](02_redes_neurais/aula10a_NLP.ipynb) | Fundamentos de NLP: Padronização, Tokenização, Vocabulário, One-Hot, o problema de OOV (*Out-of-Vocabulary*), vetorizador manual e `TextVectorization.adapt()`. |
+| **10b** | [aula10b_binary_unigram.ipynb](02_redes_neurais/aula10b_binary_unigram.ipynb) | Análise de Sentimentos no IMDB: Vetorização binária com Unigramas (1-gram Bag of Words) e MLP densa. |
+| **10b** | [aula10b_binary_2gram.ipynb](02_redes_neurais/aula10b_binary_2gram.ipynb) | Análise de Sentimentos no IMDB: Vetorização binária com Bigramas (`ngrams=2`) capturando pares locais (*"not good"*). |
+| **10b** | [aula10b_binary_3gram.ipynb](02_redes_neurais/aula10b_binary_3gram.ipynb) | Análise de Sentimentos no IMDB: Vetorização binária com Trigramas (`ngrams=3`) e análise de dimensionalidade esparsa. |
+| **10b** | [aula10b_tfidf.ipynb](02_redes_neurais/aula10b_tfidf.ipynb) | Análise de Sentimentos no IMDB: Ponderação estatística TF-IDF (`output_mode='tf_idf'`) para penalizar palavras genéricas e destacar termos salientes. |
+
+#### 📦 Lote 10: NLP Sequencial: Recorrência & Embeddings Densos
+| Aula | Caderno | Tópicos Centrais |
+| :---: | :--- | :--- |
+| **10f** | [aula10f - lstm.ipynb](02_redes_neurais/aula10f%20-%20lstm.ipynb) | Modelagem Sequencial no IMDB: Vetorização inteira, camada `Embedding` treinável de 256 dimensões com `mask_zero=True` e `Bidirectional(LSTM)`. |
+| **10g** | [aula10g - glove.ipynb](02_redes_neurais/aula10g%20-%20glove.ipynb) | Transfer Learning em NLP: Extração e parsing manual de 400.000 vetores GloVe de 100 dimensões (Stanford), matriz de pesos congelada e BiLSTM. |
+
+#### 📦 Lote 11: A Era da Atenção (Mecanismos de Self-Attention)
+| Aula | Caderno | Tópicos Centrais |
+| :---: | :--- | :--- |
+| **11a** | [aula11a_Simplified_self_attention.ipynb](02_redes_neurais/aula11a_Simplified_self_attention.ipynb) | Autoatenção Simplificada do zero: Produto escalar (*dot-product*), estabilidade numérica no Softmax, vetores de contexto ponderados e vetorização `inputs @ inputs.T`. |
+| **11b** | [aula11b_self_attention_mechanism_with_trainable_weights.ipynb](02_redes_neurais/aula11b_self_attention_mechanism_with_trainable_weights.ipynb) | Autoatenção Treinável: Formulação de Queries, Keys e Values ($Q, K, V$), Scaled Dot-Product Attention ($1/\sqrt{d_k}$), `SelfAttention_v1` e `SelfAttention_v2` com `nn.Linear`. |
+| **11c** | [aula11c_Causal_attention.ipynb](02_redes_neurais/aula11c_Causal_attention.ipynb) | Atenção Causal (Masked Self-Attention) para geração de texto (estilo GPT): Máscara triangular de logits com $-\infty$, regularização por Dropout e módulo PyTorch `CausalAttention`. |
+| **11d** | [aula11d_Multi_head_attention.ipynb](02_redes_neurais/aula11d_Multi_head_attention.ipynb) | Atenção Multi-Cabeça (MHA): Implementação intuitiva com `MultiHeadAttentionWrapper` vs implementação vetorizada 4D de alto desempenho computacional com projeção de saída. |
+
+#### 📦 Lote 12: Transformers & Deep Learning Moderno (Hugging Face)
+| Aula | Caderno | Tópicos Centrais |
+| :---: | :--- | :--- |
+| **12a** | [aula12a_transformer.ipynb](02_redes_neurais/aula12a_transformer.ipynb) | A Arquitetura Transformer completa: Camada customizada `TransformerEncoder`, conexões residuais, Layer Normalization, serialização com `get_config`, callbacks e a regra heurística $N/L$. |
+| **12c** | [aula12c_huggingface.ipynb](02_redes_neurais/aula12c_huggingface.ipynb) | Ecossistema Hugging Face Hub: Pipelines de inferência de alto nível, DistilBERT pré-treinado no IMDB, medição de latência e acurácia estado-da-arte (~93%+). |
 
 ---
 
@@ -132,7 +182,7 @@ source venv/bin/activate
 
 ### 3. Instalar Dependências
 ```bash
-pip install numpy pandas scikit-learn matplotlib seaborn jupyter ipykernel torch
+pip install numpy pandas scikit-learn matplotlib seaborn jupyter ipykernel torch tensorflow transformers
 ```
 
 ### 4. Abrir no Jupyter Lab ou VS Code
@@ -148,12 +198,17 @@ code .
 
 1. **Goodfellow, I., Bengio, Y., & Courville, A.** (2016). *Deep Learning*. MIT Press.
 2. **Hastie, T., Tibshirani, R., & Friedman, J.** (2009). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. Springer.
-3. **Aggarwal, C. C.** (2018). *Neural Networks and Deep Learning: A Textbook*. Springer.
-4. **Weidman, S.** (2019). *Deep Learning from Scratch: Building with Python from First Principles*. O'Reilly.
+3. **Chollet, F.** (2021). *Deep Learning with Python* (2nd ed.). Manning Publications.
+4. **Vaswani, A., et al.** (2017). *Attention Is All You Need*. Advances in Neural Information Processing Systems.
 
 ---
 
 ## 👨‍🏫 Créditos e Autoria
-* **Aulas e Códigos Originais**: Prof. Dr. Fernando Boldt ([GitHub](https://github.com/fboldt)).
-* **Enriquecimento Didático e Curadoria**: Paulo Fernando ([@Paulo83-dev](https://github.com/Paulo83-dev)).
-* **Metodologia de Enriquecimento**: Desenvolvida com auxílio da skill de IA `enrich-ml-notebooks`.
+
+* **Autor Original das Aulas e Códigos**: **Prof. Dr. Francisco de Assis Boldt**
+  * Perfil no GitHub: [@fboldt](https://github.com/fboldt)
+  * Repositórios de Origem:
+    * Machine Learning Clássico: [fboldt/aulasml](https://github.com/fboldt/aulasml)
+    * Redes Neurais & Deep Learning: [fboldt/aulasann](https://github.com/fboldt/aulasann)
+* **Enriquecimento Didático, Engenharia de Prompt e Curadoria**: **Paulo Fernando** ([@Paulo83-dev](https://github.com/Paulo83-dev))
+* **Metodologia de Enriquecimento**: Conduzida com auxílio da skill especializada de IA `enrich-ml-notebooks`.

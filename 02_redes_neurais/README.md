@@ -1,6 +1,6 @@
 # Programa Completo: Disciplina de Redes Neurais Artificiais (ANN)
 ## 15 Semanas | 45 Horas | Mestrado/Doutorado em Computação
-**Professor**: Fernando Boldt | **Material Prático Enriquecido Didaticamente**
+**Professor**: Prof. Dr. Francisco de Assis Boldt | **Material Prático Enriquecido Didaticamente**
 
 ---
 
@@ -792,3 +792,13 @@ Semana 15:    Integração (Projetos e Perspectivas Futuras)
 **Elaborado para**: Programa de Pós-Graduação em Computação (Mestrado/Doutorado)  
 **Versão**: 2025.2  
 **Última atualização**: Outubro 2025
+
+---
+
+## 👨‍🏫 Créditos e Autoria
+
+* **Autor Original das Aulas e Códigos**: **Prof. Dr. Francisco de Assis Boldt**
+  * Perfil no GitHub: [@fboldt](https://github.com/fboldt)
+  * Repositório Upstream Oficial: [fboldt/aulasann](https://github.com/fboldt/aulasann)
+* **Enriquecimento Didático e Curadoria**: **Paulo Fernando** ([@Paulo83-dev](https://github.com/Paulo83-dev))
+* **Metodologia de Enriquecimento**: Desenvolvida com auxílio da skill de IA `enrich-ml-notebooks`.
